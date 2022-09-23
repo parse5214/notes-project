@@ -1,0 +1,31 @@
+
+.sidebar-container {
+  text-align: center;
+  width: 20%;
+  height: 100vh;
+  background-color: #55efc4;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  padding: 20px;
+}
+
+.side-button {
+  border-radius: 15px;
+  border: 3px solid #000;
+  width: 40%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.side-button:hover {
+  background-color: black;
+}
+
+.side-button:hover .svg{
+  filter: invert(100%);
+}

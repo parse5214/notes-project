@@ -1,0 +1,76 @@
+
+.sidebar {
+  background-color: #55efc4;
+}
+
+@media (max-width: 962px) {
+  .container-note {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input-area, .output-area {
+    padding: 20px;
+    width: 100%;
+    min-height: 60vh;
+  }
+
+  .input-text{
+    height: 60vh;
+  }
+
+  .output-text {
+    min-height: 60vh;
+    height: 100%;
+  }
+
+  .sidebar {
+    height: 10vh;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+  }
+  
+}
+
+@media (min-width: 962px) {
+  .container-note {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: top;
+  }
+  
+  .input-area, .output-area {
+    padding: 20px;
+    min-height: 100vh;
+    width: 40%;
+  }
+  
+  .input-area {
+    padding-left: 40px;
+  }
+  
+  .output-area {
+    padding-right: 40px;
+  }
+  
+  .sidebar {
+    width: 20%;
+    min-height: 100vh;
+  }
+  
+  .input-text {
+    height: 90vh;
+  }
+  
+  .output-text {
+    height: 100%;
+  }
+  
+}
+
+
+
